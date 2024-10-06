@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+background-color: rgb(214, 152, 82);
+color: #ededed
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: lightseagreen;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100; 
+}
+
+
+.logo {
+font-size: 25px;
+color: #ededed;
+text-decoration: none;
+font-weight: 600;
+}
+
+.navbar a {
+font-size: 18px;
+color: #ededed;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: 2s;
+}
+
+.navbar a:hover 
+.navbar a:active {
+color: #00ab00
+}
+
+
+.home{
+height: 100vh;
+display: flex;
+align-items: center;
+padding: 0 10%;
+margin-top: 40px;
+}
+
+.home-content{
+background-color: rgb(214, 152, 82);
+max-width: 600px;
+margin-top: 40px;
+}
+
+.home-content h1{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.2;
+margin-top: 40px;
+}
+
+.home-content h2{
+font-size: 32px;
+font-weight: 700px;
+}
+
+.home-content p{
+font-size: 16px;
+margin: 20px 0 40px;
+}
+
+img {
+border-radius:50%;
+margin-right: auto;
+margin-left: auto;
+align-items: center;
+justify-content: right;
+float: right;
+left: 140%;
+right: 0px;
+position: relative;
+transform: translateY(-40%);
+}
+
+.Mapa iframe{
+position: absolute;
+left: 120px;
+bottom: 0;
+margin: 0 10px;
+transform: translateY(-40%);
+}
